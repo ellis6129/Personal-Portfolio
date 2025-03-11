@@ -4,6 +4,7 @@ import linkedinLogo from '../assets/Images/linkedin-logo.jpg';
 import GithubLogo from '../assets/Images/github-logo.png';
 import InstaLogo from '../assets/Images/Instagram_logo.png';
 import WhatsappLogo from '../assets/Images/whatsapp-logo.jpg';
+import DiscordLogo from '../assets/Images/discord-logo.png';
 
 const Footer = () => {
   return (
@@ -20,6 +21,9 @@ const Footer = () => {
           </a>
           <a href="https://wa.me/923161611907" target="_blank" rel="noopener noreferrer">
             <img src={WhatsappLogo} alt="WhatsApp" className="img-icon" />
+          </a>
+          <a href="https://discord.com/users/iftantary" target="_blank" rel="noopener noreferrer">
+            <img src={DiscordLogo} alt="Discord" className="img-icon" />
           </a>
         </div>
       <div className="container">
